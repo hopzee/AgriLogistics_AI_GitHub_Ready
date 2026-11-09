@@ -176,9 +176,13 @@ with tab1:
     c3.metric("Cargo temperature range",f"{target_min:g}–{target_max:g} °C")
     st.write("The prototype combines vehicle suitability screening, route comparison and simulated cargo-temperature monitoring.")
     st.markdown("**Workflow**")
-    st.write("1. Enter the cargo and shipment details. 2. Review eligible vehicles using payload, refrigeration and maintenance information. 3. Compare the distance-only route with the perishability-aware route. 4. Inspect simulated temperature readings.")
-    st.warning("The application is decision support for an academic prototype. Confirm vehicle condition, commodity requirements and actual route conditions independently.")
-
+    st.markdown(
+    "1. Enter the cargo and shipment details. "
+    "2. Review eligible vehicles using payload, refrigeration and maintenance information. "
+    "3. Compare the distance-only route with the perishability-aware route. "
+    "4. Inspect simulated temperature readings."
+)
+    
 with tab2:
     st.subheader("Vehicle recommendation engine")
     uploaded=st.file_uploader("Optional: upload your fleet CSV",type=["csv"],key="fleet_csv")
