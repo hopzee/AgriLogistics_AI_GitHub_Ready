@@ -176,12 +176,11 @@ with tab1:
     c3.metric("Cargo temperature range",f"{target_min:g}–{target_max:g} °C")
     st.write("The prototype combines vehicle suitability screening, route comparison and simulated cargo-temperature monitoring.")
     st.markdown("**Workflow**")
-    st.markdown("""
-    "1. Enter the cargo and shipment details. "
-    "2. Review eligible vehicles using payload, refrigeration and maintenance information. "
-    "3. Compare the distance-only route with the perishability-aware route. "
-    "4. Inspect simulated temperature readings."
-    """)
+    st.markdown("### Workflow")
+    st.write("1. Enter the cargo and shipment details.")
+    st.write("2. Review eligible vehicles using payload, refrigeration and maintenance information.")
+    st.write("3. Compare the distance-only route with the perishability-aware route.")
+    st.write("4. Inspect simulated temperature readings.")
     
 with tab2:
     st.subheader("Vehicle recommendation engine")
