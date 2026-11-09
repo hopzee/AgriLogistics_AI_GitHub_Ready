@@ -1,0 +1,7 @@
+vehicle_id,vehicle_type,capacity_kg,refrigeration_type,min_temp_c,max_temp_c,maintenance_score,maintenance_events_12m,last_service_date,available
+REF-001,Refrigerated truck,8000,Chilled,8,15,92,1,2026-08-10,True
+REF-002,Refrigerated van,2500,Chilled,7,14,88,2,2026-07-22,True
+FRO-003,Refrigerated truck,10000,Frozen,-18,-5,90,1,2026-09-01,True
+INS-004,Insulated truck,5000,Insulated,10,25,82,3,2026-05-18,True
+OPEN-005,Open truck,6000,None,20,40,75,4,2026-04-12,True
+REF-006,Refrigerated van,1800,Chilled,7,14,65,5,2026-02-11,False
